@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.reset{
+    width: 800px;
+    min-height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color:#222;
+    display: flex;
+    box-shadow: 15px 5px 30px rgba(0, 0,0,0.3);
+}
+.content{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.body{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content img{
+    width: 100%;
+}
+.resetform{
+    flex-basis: 50%;
+    background: #27debf;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px;
+}
+.resetform h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    color: black;
+}
+p{
+    padding: 0px 0px 20px 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: black;
+}
+.tbox{
+    border-radius: 10px;
+    background: transparent;
+    background-color: white;
+    outline: none;
+    border: 1px solid #777;
+    width: 80%;
+    min-height: 32px;
+    margin: 20px 0 20px 20px;
+     
+
+}
+.tbox input{
+    background: transparent;
+    width: 70%;
+    outline: none;
+    border: 0;
+    padding-left: 5px;
+    color: black;
+
+}
+::placeholder{
+    color: #777;
+}
+.p {
+    text-align: center;
+    padding: 0;
+}
+i{
+    color: #777;
+    font-size: 15px;
+    padding: 7px;
+}
+a{
+    text-decoration: none;
+    border: 1px solid #088461;
+    background-color: #0fefb0;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    color: #170808;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    display: block;
+    width: 40%;
+    box-shadow: 15px 5px 30px rgba(0, 0,0,0.3);
+    margin: auto;
+   
+   
+}
+
+
+@media( max-width:768px) 
+{
+    .reset{
+        flex-direction: column;
+        margin: 0px 15px;
+    }
+    .resetform h1{
+        text-align:start;
+        margin-left:25px ;
+        padding-bottom: 10px;
+    }
+}
+
